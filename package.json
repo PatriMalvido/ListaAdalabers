@@ -5,9 +5,9 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "publish-react": "cd web && npm run build && cd .. && rm -rf ./src/public-react && mv ./web/build ./src/public-react"
+    "publish-react": "cd front && npm run build && cd .. && rm -rf ./src/public-react && mv ./front/build ./src/public-react"
   },
-  "author": "adalab",
+  "author": "PatriMalvido",
   "license": "ISC",
   "dependencies": {
     "better-sqlite3": "^7.5.0",
