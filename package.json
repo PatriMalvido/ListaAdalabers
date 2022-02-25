@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "build": "react-scripts build",
     "publish-react": "cd front && npm run build && cd .. && rm -rf ./src/public-react && mv ./front/build ./src/public-react"
   },
   "author": "PatriMalvido",
