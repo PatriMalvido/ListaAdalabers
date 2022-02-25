@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     callToApi().then((response) => {
-      setStudent(response.results);
+      setStudent(response.adalabers.results);
     });
   }, []);
 

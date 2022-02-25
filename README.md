@@ -1,10 +1,32 @@
-# MÓDULO 3 EJERCICIO EVALUACIÓN INTERMEDIA
+## ACTUALIZACIÓN Ejercicio
+ 
+ Modificación del ejercicio, ya no recoge los datos de una API, he creado un servidor con Node Js.
+
+### Cómo arrancar el backend
+
+En la raíz del proyecto:
+
+1. Ejecutar `npm install`.
+1. Ejecutar `npm start` o `npm run dev`.
+
+El backend se arrancará en http://localhost:4000
+
+### Cómo ejecutar el frontend
+
+En la raíz del proyecto:
+
+1. Ejecutar `cd front`.
+1. Ejecutar `npm install`.
+1. Ejecutar `npm start` o `npm run dev`.
+1. Abrir la página http://localhost:3000
+
+
+## MÓDULO 3 EJERCICIO EVALUACIÓN INTERMEDIA
 
 El ejercicio consiste en desarrollar una página web sencilla con React para poder gestionar un listado con todas las alumnas de la promo Olguin de Adalab.
 
-Para probarlo haz click [aquí](http://beta.adalab.es/modulo-3-evaluacion-intermedia-PatriMalvido/) y verás la página en funcionamiento.
 
-![image](src/images/imgWeb.png)
+![image](front/src/images/imgWeb.png)
 
 ------------------------------------------------
 
@@ -17,7 +39,7 @@ Los requisitos que me pidieron para la aplicación web son:
  - Usar una Api para recoger el listado de adalabers
  - Mostrar el resultado en una tabla
 
- ![image](src/images/imgTable.png)
+ ![image](front/src/images/imgTable.png)
 
 ---------------------------------------------------
 
@@ -26,7 +48,7 @@ Los requisitos que me pidieron para la aplicación web son:
  - Crear un formulario con varios campos
  - Crear un botón de añadir
 
-![image](src/images/imgAdd.png)
+![image](front/src/images/imgAdd.png)
 
 ----------------------------------------------------
 
@@ -35,7 +57,7 @@ Los requisitos que me pidieron para la aplicación web son:
 - Por nombre: usando un input
 - Por tutora: usando un select
 
-![image](src/images/imgFilter.png)
+![image](front/src/images/imgFilter.png)
 
 -----------------------------------------------------
 
@@ -46,4 +68,4 @@ Este proyecto está bajo la Licencia MIT License mira el archivo [LICENSE](LICEN
 -------------------------------------------------------
 ## Autora: :woman_technologist:
 
-Futura junior frontend developer **Patri Malvido** [Github](https://github.com/PatriMalvido)
+Frontend developer **Patri Malvido** [Github](https://github.com/PatriMalvido)

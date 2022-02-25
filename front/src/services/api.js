@@ -1,9 +1,13 @@
 const callToApi = () => {
    
-  return fetch('https://beta.adalab.es/pw-recursos/apis/adalabers-v1/promo-patata.json') 
+  return fetch('//localhost:4000/adalabers',
+  {
+    method: 'GET',
+  } 
+  )
   .then(response => response.json())
-  .then(responseData => {
-   return responseData
+  .then(data => {
+     return data;
   });
 }
 
